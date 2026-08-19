@@ -1,5 +1,5 @@
 [package]
-name = "agb_template"
+name = "agb_bevy_demo"
 version = "0.1.0"
 authors = [""]
 edition = "2024"
