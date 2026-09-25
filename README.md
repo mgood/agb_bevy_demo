@@ -1,3 +1,11 @@
+# AGB+Bevy Demo
+
+This is a work-in-progress to bring [bevy_mod_gba](https://github.com/bushrat011899/bevy_mod_gba) back up-to-date with current versions of Bevy, AGB, and other dependencies.
+
+It's building on a patched version of Bevy with fixes for atomics that are not supported on GBA builds.
+
+Since AGB 0.25 has also made some big changes to the API since the 0.21 version `bevy_mod_gba` was built on, I'm starting from a simple app to work my way up rebuilding support for integrating the GBA systems with Bevy incrementally. Right now it has some basic support for creating and rendering sprites, and a test for button handling.
+
 # AGBRS template
 
 ## A basic template example for agb projects

@@ -8,6 +8,10 @@ edition = "2024"
 
 [dependencies]
 agb = "0.25.0"
+bevy = { git="https://github.com/mgood/bevy.git", rev = "b86cd0397df699f2730607c53cd4c48380dc63fb", default-features = false, features = [ "gamepad" ] }
+
+[patch.crates-io]
+foldhash = { git = "https://github.com/orlp/foldhash.git", rev = "fef1ce56193e2e8f8590933e1c8b850f48d86513" }
 
 [profile.dev]
 opt-level = 3
