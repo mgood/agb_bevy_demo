@@ -6,8 +6,6 @@
 
 extern crate alloc;
 
-mod plugins;
-
 use agb::display::object::Object;
 use agb::fixnum::Vector2D;
 use agb::include_aseprite;
